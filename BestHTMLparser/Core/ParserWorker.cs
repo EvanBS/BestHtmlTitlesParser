@@ -9,7 +9,6 @@ namespace BestHTMLparser.Core
         iParser<T> parser;
         iParserSettings parserSettings;
         HtmlLoader loader;
-        bool isActive;
 
         #region ParserProperties
 
@@ -42,13 +41,7 @@ namespace BestHTMLparser.Core
             }
         }
 
-        public bool IsActive
-        {
-            get
-            {
-                return isActive;
-            }
-        }
+        public bool IsActive { get; private set; }
 
         #endregion
 
@@ -64,13 +57,13 @@ namespace BestHTMLparser.Core
 
         public void Start()
         {
-            isActive = true;
+            IsActive = true;
             Worker();
         }
 
         public void Abort()
         {
-            isActive = false;
+            IsActive = false;
         }
 
         // control parsing
@@ -95,7 +88,7 @@ namespace BestHTMLparser.Core
             }
 
             OnComplete?.Invoke(this);
-            isActive = false;
+            IsActive = false;
         }
     }
 }

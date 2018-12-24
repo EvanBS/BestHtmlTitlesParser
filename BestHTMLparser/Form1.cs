@@ -9,7 +9,6 @@ namespace BestHTMLparser
     {
         ParserWorker<string[]> parser;
 
-
         public Form1()
         {
             InitializeComponent();
@@ -34,6 +33,7 @@ namespace BestHTMLparser
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            ListTitles.Items.Clear();
             parser.GetParserSettings = new HabraSettings((int)StartNumeric.Value, (int)EndNumeric.Value);
             parser.Start();
         }

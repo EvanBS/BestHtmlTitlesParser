@@ -47,14 +47,14 @@
             this.ListTitles.FormattingEnabled = true;
             this.ListTitles.Location = new System.Drawing.Point(12, 12);
             this.ListTitles.Name = "ListTitles";
-            this.ListTitles.Size = new System.Drawing.Size(272, 420);
+            this.ListTitles.Size = new System.Drawing.Size(403, 420);
             this.ListTitles.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(531, 45);
+            this.label1.Location = new System.Drawing.Point(555, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 1;
@@ -63,7 +63,7 @@
             // StartNumeric
             // 
             this.StartNumeric.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.StartNumeric.Location = new System.Drawing.Point(534, 88);
+            this.StartNumeric.Location = new System.Drawing.Point(558, 107);
             this.StartNumeric.Minimum = new decimal(new int[] {
             1,
             0,
@@ -81,7 +81,7 @@
             // EndNumeric
             // 
             this.EndNumeric.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.EndNumeric.Location = new System.Drawing.Point(534, 181);
+            this.EndNumeric.Location = new System.Drawing.Point(558, 200);
             this.EndNumeric.Minimum = new decimal(new int[] {
             1,
             0,
@@ -100,7 +100,7 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(531, 138);
+            this.label2.Location = new System.Drawing.Point(555, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 3;
@@ -109,7 +109,7 @@
             // StartButton
             // 
             this.StartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.StartButton.Location = new System.Drawing.Point(534, 249);
+            this.StartButton.Location = new System.Drawing.Point(558, 268);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(120, 23);
             this.StartButton.TabIndex = 5;
@@ -120,7 +120,7 @@
             // AbortButton
             // 
             this.AbortButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.AbortButton.Location = new System.Drawing.Point(534, 309);
+            this.AbortButton.Location = new System.Drawing.Point(558, 307);
             this.AbortButton.Name = "AbortButton";
             this.AbortButton.Size = new System.Drawing.Size(120, 23);
             this.AbortButton.TabIndex = 6;
@@ -132,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(704, 450);
             this.Controls.Add(this.AbortButton);
             this.Controls.Add(this.StartButton);
             this.Controls.Add(this.EndNumeric);
